@@ -19,7 +19,7 @@ Make sure you have Node.js installed in your system.
 
 Clone this repo
 
-    git clone https://github.com/dhawal-kamdar/Speak-Video-Chat.git
+    git clone https://github.com/newvijay/MeetingApp.git
 
 Install PeerJS globally.
 
