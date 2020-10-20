@@ -11,7 +11,7 @@ const peerServer = ExpressPeerServer (server,{
   debug:true
 });
 
-app.use('/peerjs',peerServer);
+app.use('/',peerServer);
 
 app.get("/", (req, res) => {
   res.render("index");
