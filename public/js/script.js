@@ -30,7 +30,12 @@ navigator.mediaDevices
 
     socket.on("user-connected", (userId) => {
       console.log("New User Connected");
-      connectToNewUser(userId, stream);
+
+       setTimeout(function ()
+        {
+          connectToNewUser(userId, stream);
+        },5000
+      )
     });
 
      // input value
