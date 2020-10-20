@@ -1,10 +1,10 @@
-# Speak Video Chat
+# MeetingApp Video Chat
 
-Speak is a free multi-room multi-user video chatting website.
+MeetingApp is a free multi-room multi-user video chatting website.
 
 ## Demo
 
-https://speak-video-chat.herokuapp.com/
+https://agile-taiga-13140.herokuapp.com/
 
 ## Developed using
 
