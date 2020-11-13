@@ -47,6 +47,15 @@ navigator.mediaDevices
     if (e.which == 13 && text.value.length !== 0) {
         //console.log(text.value);
 
+
+       var li  = document.createElement('li');
+    li.appendChild(document.createTextNode('You Typed:'));
+        //$("ul").append('<li class="message"><b>user</b><br/>$(message)</li>');
+    //console.log(li);
+    document.getElementsByTagName("ul")[0].appendChild(li).style.cssText="color:green";
+
+
+
       socket.emit('message', text.value);
       text.value= '';
     }
@@ -55,7 +64,7 @@ navigator.mediaDevices
     var li  = document.createElement('li');
     li.appendChild(document.createTextNode(message));
     //console.log(li);
-    document.getElementsByTagName("ul")[0].appendChild(li);
+    document.getElementsByTagName("ul")[0].appendChild(li).style.textTransform='capitalize';
     //$("ul").append('<li class="message"><b>user</b><br/>$(message)</li>');
     scrollToBottom()
   })
